@@ -1,0 +1,17 @@
+{
+    "name": "orr/hello-composer",
+    "description": "Create, publish and use your first composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suchart Bunhachirat",
+            "email": "suchartbu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Orr\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
